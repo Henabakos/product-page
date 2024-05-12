@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pro-navbar{
+    display:flex;
+    justify-content: space-between;
+    margin: 60px;
+    box-shadow: 10px 3px 40px  rgb(207, 205, 205);
+    background:a;
+}
+.pro-navbar .image-container{
+    background-color: rgb(255, 115, 0);
+}
+.image-container h3{
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+.pro-navbar .image-container img{
+    width:300px;
+    box-shadow: 10px 3px 40px  rgb(8, 8, 8,0.7);
+    border-radius:10px;
+    margin-left: 35%;
+    margin-top: 40%;
+}
+.main-container .navbar{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-left:20%;
+    width: 70%;
+}
+.main-container .navbar .five{
+    display: flex;
+}
+.main-container .navbar .five p{
+    padding-right: 10px;
+    color: rgb(255, 115, 0);  
+}
+.main-container .navbar .pages{
+    text-decoration: none;
+    color: rgb(255, 115, 0);   
+}
+.main-container .navbar .pages:hover{
+    color: black;
+}
+.main-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   
+}
+.main-container .containt{
+    display:flex;
+    width:50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 300px;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+.main-container .containt h1{
+    color:rgb(255, 115, 0);
+    font-size: 40px;
+    font-weight: 800;
+}
+.main-container .containt .head{
+    margin-bottom: 30px;
+}
+.main-container .containt .head h3{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.main-container .containt .head h3 span{
+    color: gray;
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: line-through;
+    padding-right: 20px;
+}
+.main-container .containt .head button{
+    background-color: rgb(0, 255, 0);
+    padding: 6px 20px;
+    border: none;
+}
+.main-container .containt .des p{
+    color: rgb(138, 136, 136);
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+.main-container .containt .des .top{
+    font-weight:100px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 20px;
+}
+.size{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    gap: 50px;
+}
+.size p{
+    color: rgb(145, 18, 18);
+    padding-bottom: 10px;
+}
+.size .circles{
+    display: flex;
+    
+}
+.change{
+    width:17px;
+    height:17px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 10px;
+}
+.circles img{
+    display: none;
+}
+.circles .clr1{
+    border: 2px solid black;
+    width:17px;
+    height:17px;
+    border-radius: 50%;
+    background-color: rgb(255, 115, 0);
+    margin-left: 10px;
+}
+.circles .clr2{
+    border: 2px solid white;
+    width:17px;
+    height:17px;
+    border-radius: 50%;
+    background-color:rgb(0, 255, 200);
+    margin-left: 10px;
+}
+.circles .clr3{
+    border: 2px solid white;
+    width:17px;
+    height:17px;
+    border-radius: 50%;
+    background-color:blue;
+    margin-left: 10px;
+}
+.circles .clr4{
+    border: 2px solid white;
+    width:17px;
+    height:17px;
+    border-radius: 50%;
+    background-color:gray;
+    margin-left: 10px;
+    
+}
+.size .circles div{
+    padding-left: 10px;
+}
+.size .size-row{
+    text-align: center;
+    padding:0px 20px;
+    background-color: rgb(245, 245, 245);
+    border-right: 1px solid rgb(207, 205, 205);
+    box-shadow: 10px 3px 40px  rgb(207, 205, 205);
+    margin-bottom: 50px;
+}
+.containt .heart{
+    margin-bottom: 20%;
+    justify-content: center;
+}
+.containt .heart button{
+    width:200px;
+    height:40px;
+    background: #242424;
+    color: aliceblue;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+}
+.containt .heart i{
+    border: 1px solid rgb(228, 226, 226);
+    padding: 10px;
+    cursor: pointer;
+}
